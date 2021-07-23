@@ -1,0 +1,60 @@
+header {
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+h1 {
+    text-shadow: 4px 4px #000000b4;
+    font-size: 40px;
+    font-family: 'Fredoka One', cursive;
+    font-weight: normal;
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    width: 60%;
+}
+
+section { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 6px 6px 15px 6px #00000085;
+    color: black;
+}
+
+div#msg {
+    font-size: 25px;
+}
+
+div#foto {
+    margin-top: 31px;
+}
+
+footer {
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px #000000b4;
+}
+
+@media screen and (min-width: 1035px) {
+    main {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        width: 90%;
+    }
+}
