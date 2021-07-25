@@ -2,7 +2,7 @@
 
 Relógio digital feito com HTML, CSS e JavaScript
 
-A cor de fundo e imagem mudam de acordo com o perído do dia:
+A cor de fundo e imagem mudam de acordo com o período do dia:
 
 Manhã - 00:00 às 11:59 
 
